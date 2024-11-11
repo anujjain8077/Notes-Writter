@@ -1,0 +1,49 @@
+.container {
+    width: 400px;
+    margin: auto;
+}
+
+h1 img {
+    width: 40px;
+    vertical-align: middle;
+}
+
+.btn {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn img {
+    margin-right: 8px;
+    width: 25px;
+}
+
+.notes-container {
+    position: relative;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    min-height: 100px;
+}
+
+.input-box {
+    position: relative;
+    border: 1px solid #ccc;
+    padding: 10px;
+    min-height: 50px;
+    margin-bottom: 10px;
+}
+
+.input-box img.delete-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 20px;
+    cursor: pointer;
+}
